@@ -1,5 +1,5 @@
 use std::{path, io};
-use crate::{disk, gpt_entry::{GptHeader, GptEntry}, error_helpers::error_mapping};
+use crate::{disk, gpt::{GptHeader, GptEntry}, error_helpers::error_mapping};
 use crate::{table::Table};
 
 pub struct GptParser {

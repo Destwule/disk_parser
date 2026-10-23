@@ -1,7 +1,6 @@
 use std::{path, io};
-use crate::{
-    mbr_entry::MbrEntry, disk, table::Table
-};
+use crate::mbr::MbrEntry;
+use crate::{disk, table::Table};
 
 pub struct MbrParser {
     disk_path: path::PathBuf,

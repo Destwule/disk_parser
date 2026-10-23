@@ -1,7 +1,7 @@
 use std::{path::PathBuf, io::{self}};
 use parse_clargs::{Arg, Parser, ValueKind};
 use disk_parser::{
-    mbr_parser::MbrParser, gpt_parser::GptParser, error_helpers::general_errors
+    mbr::MbrParser, gpt::GptParser, error_helpers::general_errors
 };
 
 
